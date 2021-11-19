@@ -1,0 +1,11 @@
+.footer{
+    background-color: rgb(33 ,37, 41);
+    color: aliceblue;
+    font-size: 20px;
+    padding: 5px 0;
+  }
+  
+.footer-text{
+    margin: 0;
+    padding: 10px;
+  }
