@@ -11,7 +11,7 @@ import {Switch} from 'react-router-dom'
 export class App extends Component {
   
   api_key= process.env.REACT_API_KEY
-  // api_key="47d3c416598f484c9002a15e6f11805a"
+  
   render() {
     return (
       <>
