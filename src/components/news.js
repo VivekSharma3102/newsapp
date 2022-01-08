@@ -34,7 +34,7 @@ export class News extends Component {
         const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apikey=${this.props.api_key}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
         this.setState({ loading: true });
 
-        // here our data is fetches from url and converted into json using await then we fetch our articles from json 
+        // here our data is fetched from url and converted into json using await then we fetch our articles from json 
         
         let data = await fetch(url);
         let parsedData = await data.json();
